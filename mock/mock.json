@@ -1,0 +1,153 @@
+{
+    "source": "mockoon:1.14.1",
+    "data": [
+        {
+            "type": "environment",
+            "item": {
+                "uuid": "",
+                "lastMigration": 15,
+                "name": "resume converter",
+                "endpointPrefix": "",
+                "latency": 0,
+                "port": 3007,
+                "routes": [
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "resume/:resumeId/withName",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\r\n    \"resultCode\": 1,\r\n    \"resume\": {\r\n        \"id\": \"12345678901234567890123456789012abcdef\",\r\n        \"name\": \"Кузеров Камиль Ильдарович\",\r\n        \"age\": 23,\r\n        \"birth_date\": \"1998-04-26\",\r\n        \"gender\": \"male\",\r\n        \"area\": \"Москва\",\r\n        \"title\": \"Frontend-разработчик\",\r\n        \"contacts\": [\r\n            {\r\n                \"type\": \"cell\",\r\n                \"value\": \"+71234567890\"\r\n            },\r\n            {\r\n                \"type\": \"email\",\r\n                \"value\": \"applicant@example.com\"\r\n            },\r\n            {\r\n                \"type\": \"skype\",\r\n                \"value\": \"echo123.ru\"\r\n            }\r\n        ],\r\n        \"photo\": {\r\n            \"small\": \"https://d350aa5rlkegi1.cloudfront.net/crop_275x0_1280x1280/ecede75b0de41e28d3c706b14b8fbfad.jpg\",\r\n            \"medium\": \"https://d350aa5rlkegi1.cloudfront.net/crop_275x0_1280x1280/ecede75b0de41e28d3c706b14b8fbfad.jpg\"\r\n        },\r\n        \"education\": [\r\n            {\r\n                \"name\": \"Школа №85\",\r\n                \"year\": 2015\r\n            },\r\n            {\r\n                \"name\": \"УлГТУ\",\r\n                \"organization\": \"  Факультет информационных систем и технологий\",\r\n                \"result\": \"Бакалавриат\",\r\n                \"year\": 2019\r\n            }\r\n        ],\r\n        \"language\": [\r\n            {\r\n                \"id\": \"rus\",\r\n                \"name\": \"Русский\",\r\n                \"level\": \"native\"\r\n            },\r\n            {\r\n                \"id\": \"eng\",\r\n                \"name\": \"Английский\",\r\n                \"level\": \"b2\"\r\n            }\r\n        ],\r\n        \"experience\": [\r\n            {\r\n                \"company\": \"IBS\",\r\n                \"area\": \"Ульяновск\",\r\n                \"position\": \"Frontend разработчик\",\r\n                \"start\": \"2005-04-01\",\r\n                \"end\": \"2013-01-01\",\r\n                \"description\": \"Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.\"\r\n            }\r\n        ],\r\n        \"skill_set\": [\r\n            \"HTML\",\r\n            \"CSS\",\r\n            \"JavaScript\"\r\n        ]\r\n    }\r\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "resume/:resumeId/withOutName",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\r\n    \"resultCode\": 1,\r\n    \"resume\": {\r\n        \"id\": \"12345678901234567890123456789012abcdef\",\r\n        \"age\": 23,\r\n        \"birth_date\": \"1998-04-26\",\r\n        \"gender\": \"male\",\r\n        \"area\": \"Москва\",\r\n        \"title\": \"Frontend-разработчик\",\r\n        \"contacts\": [\r\n            {\r\n                \"type\": \"cell\",\r\n                \"value\": \"+71234567890\"\r\n            },\r\n            {\r\n                \"type\": \"email\",\r\n                \"value\": \"applicant@example.com\"\r\n            },\r\n            {\r\n                \"type\": \"site\",\r\n                \"value\": \"echo123.ru\"\r\n            }\r\n        ],\r\n        \"photo\": {\r\n               \"small\": \"https://d350aa5rlkegi1.cloudfront.net/crop_275x0_1280x1280/ecede75b0de41e28d3c706b14b8fbfad.jpg\",\r\n            \"medium\": \"https://d350aa5rlkegi1.cloudfront.net/crop_275x0_1280x1280/ecede75b0de41e28d3c706b14b8fbfad.jpg\"\r\n        },\r\n         \"education\": [\r\n            {\r\n                \"name\": \"Школа №85\",\r\n                \"year\": 2015\r\n            },\r\n            {\r\n                \"name\": \"УлГТУ\",\r\n                \"organization\": \"  Факультет информационных систем и технологий\",\r\n                \"result\": \"Бакалавриат\",\r\n                \"year\": 2019\r\n            }\r\n        ],\r\n        \"language\": [\r\n            {\r\n                \"id\": \"rus\",\r\n                \"name\": \"Русский\",\r\n                \"level\": \"native\"\r\n            },\r\n            {\r\n                \"id\": \"eng\",\r\n                \"name\": \"Английский\",\r\n                \"level\": \"b2\"\r\n            }\r\n        ],\r\n        \"experience\": [\r\n            {\r\n                \"company\": \"IBS\",\r\n                \"area\": \"Ульяновск\",\r\n                \"position\": \"Frontend разработчик\",\r\n                \"start\": \"2005-04-01\",\r\n                \"end\": \"2013-01-01\",\r\n                \"description\": \"Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.\"\r\n            }\r\n        ],\r\n        \"skill_set\": [\r\n            \"HTML\",\r\n            \"CSS\",\r\n            \"JavaScript\"\r\n        ]\r\n    }\r\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "resume/:resumeId",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\r\n      \"resultCode\": 1,\r\n      \"resume\":  {\r\n          \"id\": \"5f134ef8ff074aa1fe0039ed1f794c797a7644\",\r\n          \"photo\": \"https://d350aa5rlkegi1.cloudfront.net/crop_275x0_1280x1280/ecede75b0de41e28d3c706b14b8fbfad.jpg\",\r\n          \"name\": \"Камиль Кузеров\"\r\n       }\r\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\r\n      \"resultCode\": 0,\r\n      \"message\": \"resume not founded\"\r\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    }
+                ],
+                "proxyMode": false,
+                "proxyHost": "",
+                "https": false,
+                "cors": true,
+                "headers": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Origin",
+                        "value": "*"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Methods",
+                        "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Headers",
+                        "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                    }
+                ],
+                "proxyReqHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "proxyResHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "proxyRemovePrefix": false
+            }
+        }
+    ]
+}
