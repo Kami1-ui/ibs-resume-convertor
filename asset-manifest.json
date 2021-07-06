@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ibs-resume-convertor/static/css/main.afd7172b.chunk.css",
+    "main.js": "/ibs-resume-convertor/static/js/main.79209220.chunk.js",
+    "main.js.map": "/ibs-resume-convertor/static/js/main.79209220.chunk.js.map",
+    "runtime-main.js": "/ibs-resume-convertor/static/js/runtime-main.fe182607.js",
+    "runtime-main.js.map": "/ibs-resume-convertor/static/js/runtime-main.fe182607.js.map",
+    "static/js/2.d4c52b37.chunk.js": "/ibs-resume-convertor/static/js/2.d4c52b37.chunk.js",
+    "static/js/2.d4c52b37.chunk.js.map": "/ibs-resume-convertor/static/js/2.d4c52b37.chunk.js.map",
+    "index.html": "/ibs-resume-convertor/index.html",
+    "static/css/main.afd7172b.chunk.css.map": "/ibs-resume-convertor/static/css/main.afd7172b.chunk.css.map",
+    "static/js/2.d4c52b37.chunk.js.LICENSE.txt": "/ibs-resume-convertor/static/js/2.d4c52b37.chunk.js.LICENSE.txt",
+    "static/media/icq-icon.3130c8e6.svg": "/ibs-resume-convertor/static/media/icq-icon.3130c8e6.svg",
+    "static/media/skype-icon.adbaf49f.svg": "/ibs-resume-convertor/static/media/skype-icon.adbaf49f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe182607.js",
+    "static/js/2.d4c52b37.chunk.js",
+    "static/css/main.afd7172b.chunk.css",
+    "static/js/main.79209220.chunk.js"
+  ]
+}
