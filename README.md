@@ -1,4 +1,5 @@
 > Для работы необходим mock сервер (рекомендуется mackoon). Файл конфигурации `mock/mock.json`
+> GitHub Pages https://kamilprogram.github.io/ibs-resume-convertor/
 
 # Getting Started with Create React App
 
