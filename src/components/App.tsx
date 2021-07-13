@@ -6,6 +6,7 @@ import { ThemeProvider, unstable_createMuiStrictModeTheme } from '@material-ui/c
 import { themeOptions } from './them';
 
 const theme = unstable_createMuiStrictModeTheme(themeOptions);
+
 //basename={process.env.PUBLIC_URL}
 function App() {
   return (

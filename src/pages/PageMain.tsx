@@ -35,7 +35,7 @@ export const PageMain = () => {
                             <Link href={`https://hh.ru/oauth/authorize?  response_type=code&  client_id=QLK6K3JI3SOA0IJ3AVUPFADT8C7T0FKNPCJ7L330P7S59EDQ8UTVC1TLJ03T81P6&redirect_uri=http:\\vk.com`}>войти</Link>{` `} или зарегистрироваться на сайте hh.ru
                         </Typography> */}
                         <Typography align="center" variant="body2" paragraph >
-                            Данный сервис предназначен для автоматизации конвертирования резюме с сайта <Link href="https://hh.ru">
+                            Данный сервис предназначен для автоматизации конвертирования резюме размещенных на сайте <Link href="https://hh.ru">
                                 hh.ru
                             </Link>.
                         </Typography>
@@ -54,7 +54,7 @@ export const PageMain = () => {
                     <Grid item xs={12} >
                         <Box mt={2} display="flex" justifyContent="flex-end">
                             <Typography variant="subtitle2" >
-                                <Link href="https://git.trainee.ru.com/group5/g5front">
+                                <Link href="https://github.com/KamilProgram/ibs-resume-convertor">
                                     Как это работает?
                                 </Link>
                             </Typography>
